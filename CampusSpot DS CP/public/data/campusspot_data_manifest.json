@@ -1,0 +1,40 @@
+{
+  "department": "Information Technology",
+  "divisions": [
+    "IT-A",
+    "IT-B",
+    "IT-C",
+    "IT-D",
+    "IT-E",
+    "IT-F"
+  ],
+  "room_range": [
+    "1201",
+    "1226"
+  ],
+  "division_strength": 66,
+  "lab_batch_size": 22,
+  "verified_timetable_sources": {
+    "IT-A": {
+      "status": "Imported from Excel",
+      "sourceFile": "CampusSpot_IT_A_Exact_Timetable.xlsx"
+    },
+    "IT-B": {
+      "status": "Imported from Excel",
+      "sourceFile": "CampusSpot_IT_B_Exact_Timetable.xlsx"
+    },
+    "IT-C": {
+      "status": "Imported from Excel",
+      "sourceFile": "CampusSpot_IT_C_Exact_Timetable.xlsx"
+    },
+    "IT-D": {
+      "status": "extracted_from_MHT",
+      "sourceFile": "campusspot_timetable_SY-IT-D_seed.csv"
+    }
+  },
+  "unverified_sources": [
+    "IT-E",
+    "IT-F"
+  ],
+  "note": "Do not fabricate timetable entries for unverified divisions."
+}
